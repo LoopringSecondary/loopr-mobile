@@ -6,6 +6,10 @@ target 'loopr' do
   use_frameworks!
 
   # Pods for loopr
+  # Flutter
+  flutter_application_path = '../flutter/'
+  eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')), binding)
+
   pod 'SwiftLint'
 
   target 'looprTests' do
