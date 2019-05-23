@@ -11,6 +11,10 @@ target 'loopr' do
   eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')), binding)
 
   pod 'SwiftLint'
+  pod 'SnapKit', '~> 5.0.0'
+  pod 'NotificationBannerSwift'
+  pod 'SVProgressHUD'
+  pod 'SwiftyJSON', '~> 4.0'
 
   target 'looprTests' do
     inherit! :search_paths

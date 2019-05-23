@@ -17,6 +17,15 @@
 		9BB7D7AD2294FD0D00E8E7F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB7D7AB2294FD0D00E8E7F6 /* LaunchScreen.storyboard */; };
 		9BB7D7B82294FD0F00E8E7F6 /* looprTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7B72294FD0F00E8E7F6 /* looprTests.swift */; };
 		9BB7D7C32294FD0F00E8E7F6 /* looprUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7C22294FD0F00E8E7F6 /* looprUITests.swift */; };
+		9BB7D7D6229663D400E8E7F6 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7D5229663D400E8E7F6 /* Request.swift */; };
+		9BB7D7DD229666C800E8E7F6 /* FlutterEntrypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7D8229666C800E8E7F6 /* FlutterEntrypoint.swift */; };
+		9BB7D7DE229666C800E8E7F6 /* FlutterChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7D9229666C800E8E7F6 /* FlutterChannel.swift */; };
+		9BB7D7E0229666C800E8E7F6 /* FlutterMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7DB229666C800E8E7F6 /* FlutterMethod.swift */; };
+		9BB7D7E1229666C800E8E7F6 /* FlutterViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7DC229666C800E8E7F6 /* FlutterViewControllerProtocol.swift */; };
+		9BB7D7E6229669CA00E8E7F6 /* DefaultNotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7E4229669CA00E8E7F6 /* DefaultNotificationBanner.swift */; };
+		9BB7D7E7229669CA00E8E7F6 /* NotificationBannerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7E5229669CA00E8E7F6 /* NotificationBannerStyle.swift */; };
+		9BB7D7EA22966A8100E8E7F6 /* Localizator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7E922966A8100E8E7F6 /* Localizator.swift */; };
+		9BB7D7ED22966ADA00E8E7F6 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7EC22966ADA00E8E7F6 /* Language.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +65,15 @@
 		9BB7D7BE2294FD0F00E8E7F6 /* looprUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = looprUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB7D7C22294FD0F00E8E7F6 /* looprUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = looprUITests.swift; sourceTree = "<group>"; };
 		9BB7D7C42294FD0F00E8E7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB7D7D5229663D400E8E7F6 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		9BB7D7D8229666C800E8E7F6 /* FlutterEntrypoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlutterEntrypoint.swift; sourceTree = "<group>"; };
+		9BB7D7D9229666C800E8E7F6 /* FlutterChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlutterChannel.swift; sourceTree = "<group>"; };
+		9BB7D7DB229666C800E8E7F6 /* FlutterMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlutterMethod.swift; sourceTree = "<group>"; };
+		9BB7D7DC229666C800E8E7F6 /* FlutterViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlutterViewControllerProtocol.swift; sourceTree = "<group>"; };
+		9BB7D7E4229669CA00E8E7F6 /* DefaultNotificationBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultNotificationBanner.swift; sourceTree = "<group>"; };
+		9BB7D7E5229669CA00E8E7F6 /* NotificationBannerStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationBannerStyle.swift; sourceTree = "<group>"; };
+		9BB7D7E922966A8100E8E7F6 /* Localizator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizator.swift; sourceTree = "<group>"; };
+		9BB7D7EC22966ADA00E8E7F6 /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		B57F4029755AA5A322AFDA1A /* Pods-looprUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-looprUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-looprUITests/Pods-looprUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D0A2719A0A9297714D902345 /* Pods_loopr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_loopr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F574C228CEC0E60BAD1ECB62 /* Pods-looprTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-looprTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-looprTests/Pods-looprTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +157,11 @@
 			children = (
 				9BB7D7A22294FD0800E8E7F6 /* AppDelegate.swift */,
 				9BB7D7A42294FD0800E8E7F6 /* ViewController.swift */,
+				9BB7D7EB22966AAC00E8E7F6 /* Models */,
+				9BB7D7E822966A4F00E8E7F6 /* Localizable */,
+				9BB7D7D4229663D400E8E7F6 /* loopr-ios-sdk */,
+				9BB7D7D7229664C800E8E7F6 /* Flutter */,
+				9BB7D7E22296677D00E8E7F6 /* UIComponents */,
 				9BB7D7A62294FD0800E8E7F6 /* Main.storyboard */,
 				9BB7D7A92294FD0D00E8E7F6 /* Assets.xcassets */,
 				9BB7D7AB2294FD0D00E8E7F6 /* LaunchScreen.storyboard */,
@@ -163,6 +186,58 @@
 				9BB7D7C42294FD0F00E8E7F6 /* Info.plist */,
 			);
 			path = looprUITests;
+			sourceTree = "<group>";
+		};
+		9BB7D7D4229663D400E8E7F6 /* loopr-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7D7D5229663D400E8E7F6 /* Request.swift */,
+			);
+			path = "loopr-ios-sdk";
+			sourceTree = "<group>";
+		};
+		9BB7D7D7229664C800E8E7F6 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7D7D9229666C800E8E7F6 /* FlutterChannel.swift */,
+				9BB7D7D8229666C800E8E7F6 /* FlutterEntrypoint.swift */,
+				9BB7D7DB229666C800E8E7F6 /* FlutterMethod.swift */,
+				9BB7D7DC229666C800E8E7F6 /* FlutterViewControllerProtocol.swift */,
+			);
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		9BB7D7E22296677D00E8E7F6 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7D7E3229669CA00E8E7F6 /* NotificationBanner */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		9BB7D7E3229669CA00E8E7F6 /* NotificationBanner */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7D7E4229669CA00E8E7F6 /* DefaultNotificationBanner.swift */,
+				9BB7D7E5229669CA00E8E7F6 /* NotificationBannerStyle.swift */,
+			);
+			path = NotificationBanner;
+			sourceTree = "<group>";
+		};
+		9BB7D7E822966A4F00E8E7F6 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7D7E922966A8100E8E7F6 /* Localizator.swift */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		9BB7D7EB22966AAC00E8E7F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7D7EC22966ADA00E8E7F6 /* Language.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -391,6 +466,11 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-loopr/Pods-loopr-frameworks.sh",
 				"${PODS_ROOT}/../../flutter/.ios/Flutter/engine/Flutter.framework",
 				"${BUILT_PRODUCTS_DIR}/FlutterPluginRegistrant/FlutterPluginRegistrant.framework",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/NotificationBannerSwift/NotificationBannerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -398,6 +478,11 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlutterPluginRegistrant.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NotificationBannerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -411,8 +496,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BB7D7DD229666C800E8E7F6 /* FlutterEntrypoint.swift in Sources */,
+				9BB7D7E7229669CA00E8E7F6 /* NotificationBannerStyle.swift in Sources */,
 				9BB7D7A52294FD0800E8E7F6 /* ViewController.swift in Sources */,
+				9BB7D7D6229663D400E8E7F6 /* Request.swift in Sources */,
+				9BB7D7DE229666C800E8E7F6 /* FlutterChannel.swift in Sources */,
+				9BB7D7E6229669CA00E8E7F6 /* DefaultNotificationBanner.swift in Sources */,
+				9BB7D7E1229666C800E8E7F6 /* FlutterViewControllerProtocol.swift in Sources */,
 				9BB7D7A32294FD0800E8E7F6 /* AppDelegate.swift in Sources */,
+				9BB7D7ED22966ADA00E8E7F6 /* Language.swift in Sources */,
+				9BB7D7E0229666C800E8E7F6 /* FlutterMethod.swift in Sources */,
+				9BB7D7EA22966A8100E8E7F6 /* Localizator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
