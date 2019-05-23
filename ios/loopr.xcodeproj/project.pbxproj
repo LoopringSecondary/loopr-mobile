@@ -26,6 +26,12 @@
 		9BB7D7E7229669CA00E8E7F6 /* NotificationBannerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7E5229669CA00E8E7F6 /* NotificationBannerStyle.swift */; };
 		9BB7D7EA22966A8100E8E7F6 /* Localizator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7E922966A8100E8E7F6 /* Localizator.swift */; };
 		9BB7D7ED22966ADA00E8E7F6 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7EC22966ADA00E8E7F6 /* Language.swift */; };
+		9BB7D7F02296701400E8E7F6 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7EF2296701400E8E7F6 /* UserDefaultsKeys.swift */; };
+		9BB7D7F22296709900E8E7F6 /* RefreshControlType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7F12296709900E8E7F6 /* RefreshControlType.swift */; };
+		9BB7D7F5229670CF00E8E7F6 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7F4229670CF00E8E7F6 /* NotificationName.swift */; };
+		9BB7D7F72296710600E8E7F6 /* TimeAgoSince.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7F62296710600E8E7F6 /* TimeAgoSince.swift */; };
+		9BB7D7FB2296714200E8E7F6 /* DefaultWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BB7D7F92296714200E8E7F6 /* DefaultWebViewController.xib */; };
+		9BB7D7FC2296714200E8E7F6 /* DefaultWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7FA2296714200E8E7F6 /* DefaultWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +80,12 @@
 		9BB7D7E5229669CA00E8E7F6 /* NotificationBannerStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationBannerStyle.swift; sourceTree = "<group>"; };
 		9BB7D7E922966A8100E8E7F6 /* Localizator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizator.swift; sourceTree = "<group>"; };
 		9BB7D7EC22966ADA00E8E7F6 /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		9BB7D7EF2296701400E8E7F6 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
+		9BB7D7F12296709900E8E7F6 /* RefreshControlType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshControlType.swift; sourceTree = "<group>"; };
+		9BB7D7F4229670CF00E8E7F6 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
+		9BB7D7F62296710600E8E7F6 /* TimeAgoSince.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeAgoSince.swift; sourceTree = "<group>"; };
+		9BB7D7F92296714200E8E7F6 /* DefaultWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultWebViewController.xib; sourceTree = "<group>"; };
+		9BB7D7FA2296714200E8E7F6 /* DefaultWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultWebViewController.swift; sourceTree = "<group>"; };
 		B57F4029755AA5A322AFDA1A /* Pods-looprUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-looprUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-looprUITests/Pods-looprUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D0A2719A0A9297714D902345 /* Pods_loopr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_loopr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F574C228CEC0E60BAD1ECB62 /* Pods-looprTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-looprTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-looprTests/Pods-looprTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +169,8 @@
 			children = (
 				9BB7D7A22294FD0800E8E7F6 /* AppDelegate.swift */,
 				9BB7D7A42294FD0800E8E7F6 /* ViewController.swift */,
+				9BB7D7F3229670BF00E8E7F6 /* NotificationCenter */,
+				9BB7D7EE22966F9F00E8E7F6 /* DataManagers */,
 				9BB7D7EB22966AAC00E8E7F6 /* Models */,
 				9BB7D7E822966A4F00E8E7F6 /* Localizable */,
 				9BB7D7D4229663D400E8E7F6 /* loopr-ios-sdk */,
@@ -211,6 +225,8 @@
 			isa = PBXGroup;
 			children = (
 				9BB7D7E3229669CA00E8E7F6 /* NotificationBanner */,
+				9BB7D7F82296714200E8E7F6 /* WebViewController */,
+				9BB7D7F62296710600E8E7F6 /* TimeAgoSince.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -236,8 +252,34 @@
 			isa = PBXGroup;
 			children = (
 				9BB7D7EC22966ADA00E8E7F6 /* Language.swift */,
+				9BB7D7F12296709900E8E7F6 /* RefreshControlType.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		9BB7D7EE22966F9F00E8E7F6 /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7D7EF2296701400E8E7F6 /* UserDefaultsKeys.swift */,
+			);
+			path = DataManagers;
+			sourceTree = "<group>";
+		};
+		9BB7D7F3229670BF00E8E7F6 /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7D7F4229670CF00E8E7F6 /* NotificationName.swift */,
+			);
+			path = NotificationCenter;
+			sourceTree = "<group>";
+		};
+		9BB7D7F82296714200E8E7F6 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7D7F92296714200E8E7F6 /* DefaultWebViewController.xib */,
+				9BB7D7FA2296714200E8E7F6 /* DefaultWebViewController.swift */,
+			);
+			path = WebViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,6 +394,7 @@
 				9BB7D7AD2294FD0D00E8E7F6 /* LaunchScreen.storyboard in Resources */,
 				9BB7D7AA2294FD0D00E8E7F6 /* Assets.xcassets in Resources */,
 				9BB7D7A82294FD0800E8E7F6 /* Main.storyboard in Resources */,
+				9BB7D7FB2296714200E8E7F6 /* DefaultWebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,13 +542,18 @@
 				9BB7D7DD229666C800E8E7F6 /* FlutterEntrypoint.swift in Sources */,
 				9BB7D7E7229669CA00E8E7F6 /* NotificationBannerStyle.swift in Sources */,
 				9BB7D7A52294FD0800E8E7F6 /* ViewController.swift in Sources */,
+				9BB7D7F5229670CF00E8E7F6 /* NotificationName.swift in Sources */,
 				9BB7D7D6229663D400E8E7F6 /* Request.swift in Sources */,
+				9BB7D7F22296709900E8E7F6 /* RefreshControlType.swift in Sources */,
+				9BB7D7F02296701400E8E7F6 /* UserDefaultsKeys.swift in Sources */,
 				9BB7D7DE229666C800E8E7F6 /* FlutterChannel.swift in Sources */,
 				9BB7D7E6229669CA00E8E7F6 /* DefaultNotificationBanner.swift in Sources */,
 				9BB7D7E1229666C800E8E7F6 /* FlutterViewControllerProtocol.swift in Sources */,
 				9BB7D7A32294FD0800E8E7F6 /* AppDelegate.swift in Sources */,
+				9BB7D7FC2296714200E8E7F6 /* DefaultWebViewController.swift in Sources */,
 				9BB7D7ED22966ADA00E8E7F6 /* Language.swift in Sources */,
 				9BB7D7E0229666C800E8E7F6 /* FlutterMethod.swift in Sources */,
+				9BB7D7F72296710600E8E7F6 /* TimeAgoSince.swift in Sources */,
 				9BB7D7EA22966A8100E8E7F6 /* Localizator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
