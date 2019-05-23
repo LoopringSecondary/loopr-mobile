@@ -1,4 +1,4 @@
-package loopring.org.loopr
+package org.loopring.loopr_mobile
 
 import android.os.Bundle
 
