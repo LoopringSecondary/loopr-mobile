@@ -32,6 +32,10 @@
 		9BB7D7F72296710600E8E7F6 /* TimeAgoSince.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7F62296710600E8E7F6 /* TimeAgoSince.swift */; };
 		9BB7D7FB2296714200E8E7F6 /* DefaultWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BB7D7F92296714200E8E7F6 /* DefaultWebViewController.xib */; };
 		9BB7D7FC2296714200E8E7F6 /* DefaultWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D7FA2296714200E8E7F6 /* DefaultWebViewController.swift */; };
+		9BB7D801229675A100E8E7F6 /* neo.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BB7D7FE229675A100E8E7F6 /* neo.json */; };
+		9BB7D802229675A100E8E7F6 /* gas_limit.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BB7D7FF229675A100E8E7F6 /* gas_limit.json */; };
+		9BB7D803229675A100E8E7F6 /* tokens.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BB7D800229675A100E8E7F6 /* tokens.json */; };
+		9BB7D8062296760400E8E7F6 /* RelayAPIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7D8052296760400E8E7F6 /* RelayAPIConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +90,10 @@
 		9BB7D7F62296710600E8E7F6 /* TimeAgoSince.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeAgoSince.swift; sourceTree = "<group>"; };
 		9BB7D7F92296714200E8E7F6 /* DefaultWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultWebViewController.xib; sourceTree = "<group>"; };
 		9BB7D7FA2296714200E8E7F6 /* DefaultWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultWebViewController.swift; sourceTree = "<group>"; };
+		9BB7D7FE229675A100E8E7F6 /* neo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = neo.json; sourceTree = "<group>"; };
+		9BB7D7FF229675A100E8E7F6 /* gas_limit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gas_limit.json; sourceTree = "<group>"; };
+		9BB7D800229675A100E8E7F6 /* tokens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tokens.json; sourceTree = "<group>"; };
+		9BB7D8052296760400E8E7F6 /* RelayAPIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelayAPIConfiguration.swift; sourceTree = "<group>"; };
 		B57F4029755AA5A322AFDA1A /* Pods-looprUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-looprUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-looprUITests/Pods-looprUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D0A2719A0A9297714D902345 /* Pods_loopr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_loopr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F574C228CEC0E60BAD1ECB62 /* Pods-looprTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-looprTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-looprTests/Pods-looprTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -173,9 +181,10 @@
 				9BB7D7EE22966F9F00E8E7F6 /* DataManagers */,
 				9BB7D7EB22966AAC00E8E7F6 /* Models */,
 				9BB7D7E822966A4F00E8E7F6 /* Localizable */,
-				9BB7D7D4229663D400E8E7F6 /* loopr-ios-sdk */,
+				9BB7D7D4229663D400E8E7F6 /* loopr-sdk */,
 				9BB7D7D7229664C800E8E7F6 /* Flutter */,
 				9BB7D7E22296677D00E8E7F6 /* UIComponents */,
+				9BB7D7FD2296757400E8E7F6 /* Files */,
 				9BB7D7A62294FD0800E8E7F6 /* Main.storyboard */,
 				9BB7D7A92294FD0D00E8E7F6 /* Assets.xcassets */,
 				9BB7D7AB2294FD0D00E8E7F6 /* LaunchScreen.storyboard */,
@@ -202,12 +211,12 @@
 			path = looprUITests;
 			sourceTree = "<group>";
 		};
-		9BB7D7D4229663D400E8E7F6 /* loopr-ios-sdk */ = {
+		9BB7D7D4229663D400E8E7F6 /* loopr-sdk */ = {
 			isa = PBXGroup;
 			children = (
-				9BB7D7D5229663D400E8E7F6 /* Request.swift */,
+				9BB7D804229675D400E8E7F6 /* RelayAPI */,
 			);
-			path = "loopr-ios-sdk";
+			path = "loopr-sdk";
 			sourceTree = "<group>";
 		};
 		9BB7D7D7229664C800E8E7F6 /* Flutter */ = {
@@ -280,6 +289,25 @@
 				9BB7D7FA2296714200E8E7F6 /* DefaultWebViewController.swift */,
 			);
 			path = WebViewController;
+			sourceTree = "<group>";
+		};
+		9BB7D7FD2296757400E8E7F6 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7D7FF229675A100E8E7F6 /* gas_limit.json */,
+				9BB7D7FE229675A100E8E7F6 /* neo.json */,
+				9BB7D800229675A100E8E7F6 /* tokens.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		9BB7D804229675D400E8E7F6 /* RelayAPI */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7D8052296760400E8E7F6 /* RelayAPIConfiguration.swift */,
+				9BB7D7D5229663D400E8E7F6 /* Request.swift */,
+			);
+			path = RelayAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,7 +422,10 @@
 				9BB7D7AD2294FD0D00E8E7F6 /* LaunchScreen.storyboard in Resources */,
 				9BB7D7AA2294FD0D00E8E7F6 /* Assets.xcassets in Resources */,
 				9BB7D7A82294FD0800E8E7F6 /* Main.storyboard in Resources */,
+				9BB7D801229675A100E8E7F6 /* neo.json in Resources */,
+				9BB7D803229675A100E8E7F6 /* tokens.json in Resources */,
 				9BB7D7FB2296714200E8E7F6 /* DefaultWebViewController.xib in Resources */,
+				9BB7D802229675A100E8E7F6 /* gas_limit.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +582,7 @@
 				9BB7D7E1229666C800E8E7F6 /* FlutterViewControllerProtocol.swift in Sources */,
 				9BB7D7A32294FD0800E8E7F6 /* AppDelegate.swift in Sources */,
 				9BB7D7FC2296714200E8E7F6 /* DefaultWebViewController.swift in Sources */,
+				9BB7D8062296760400E8E7F6 /* RelayAPIConfiguration.swift in Sources */,
 				9BB7D7ED22966ADA00E8E7F6 /* Language.swift in Sources */,
 				9BB7D7E0229666C800E8E7F6 /* FlutterMethod.swift in Sources */,
 				9BB7D7F72296710600E8E7F6 /* TimeAgoSince.swift in Sources */,
