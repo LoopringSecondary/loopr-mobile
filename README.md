@@ -17,7 +17,7 @@ loopring mobile app repo
 - Setting
 - Setting detail
 - dialog_wallet_create_success
-- Airdrop
+- Airdrop (In Progress)
 - Add Contact
 - Add Tokens
 - Order list
@@ -25,9 +25,9 @@ loopring mobile app repo
 - P2P list
 - P2P detail
 - Asset detail
-- Transaction detail
-- Set gas
-- Select token to send
+- Transaction detail (Completed)
+- Set gas (Completed)
+- Select token to send (In Progress)
 - Switch send token
 - Backup mnemonics (Completed)
 - News
